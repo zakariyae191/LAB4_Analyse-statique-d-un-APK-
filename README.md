@@ -1,6 +1,12 @@
 # LAB4_Analyse-statique-d-un-APK
-Les applications Android sont distribuées sous forme de fichiers `.apk`. Même sans les exécuter, il est possible d’extraire une quantité surprenante d’informations sensibles. Ce document détaille chaque étape suivie : environnement isolé, extraction du bytecode, rétro-ingénierie du manifeste, recherche de secrets codés en dur.
-
+##Objectif 
+Comprendre la structure interne d'un APK (code, ressources, manifeste)
+Analyser l'AndroidManifest.xml pour identifier les permissions et composants exposés
+Explorer le code source décompilé avec JADX GUI
+Convertir des fichiers DEX en JAR avec dex2jar et les analyser avec JD-GUI
+Identifier des vulnérabilités courantes (secrets en clair, logs sensibles, configurations de débogage)
+Évaluer les risques de sécurité et proposer des remédiations appropriées
+Produire un mini-rapport d'audit professionnel
 
 ---
 
